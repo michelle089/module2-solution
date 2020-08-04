@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<title>First Web Page</title>
+<style>
+	body{
+		background-color: #FF9999;
+	}
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}	
+section{
+	clear: margin;
+		position: relative;
+	color: whitesmoke;
+	background-color: lightskyblue;
+	padding: 10px;
+	padding-top: 45px;
+	font-size: 100%;
+	border: 2px solid black;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	margin-right: 15px;
+}
+p{
+	background-color: lightskyblue;
+	color: black;
+	font-size: 100%;
+	
+	margin-left: 15px;
+	margin-bottom: 15px;
+
+}
+
+#chicken{
+	/*background: right top;*/
+	/*position: relative;
+	clear: left;*/
+	float: right ;/*used to cut the excess color backgroung from the word "chicken"*/
+	padding: 2.5px 20px 2.5px 20px;/* giving space between chicken*/
+	border: 2px solid black;
+	background-color: purple;
+	color: whitesmoke;
+	margin-top: -45px;
+	margin-right: -10px;
+	margin-bottom: 20px;
+	/*text-align: right;*/
+	font-size: 30px;
+}
+#fish{
+	float: right ;/*used to cut the excess color backgroung from the word "chicken"*/
+	padding:  2.5px 20px 2.5px 20px;/* giving space between chicken*/
+	border: 2px solid black;
+	background-color:#CC3333;
+	color: white;
+	margin-top: -45px;
+	margin-right: -10px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	
+}
+#sushi{
+	float: right ;/*used to cut the excess color backgroung from the word "chicken"*/
+	padding: 2.5px 20px 2.5px 20px;/* giving space between chicken*/
+	border: 2px solid black;
+	background-color: #3366FF;
+	color: white;
+	margin-top: -45px;
+	margin-right: -10px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+.row
+{
+	width: 100%;
+}
+@media(min-width: 992px)
+{
+.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12
+{
+	float: left;
+	/*border: 1px solid blue;*/
+}
+.col-lg-1{
+	width: 8.33%;
+}
+.col-lg-2{
+	width: 16.66%;
+}
+.col-lg-3{
+	width: 25%;
+}
+.col-lg-4{
+	width: 33%;
+}
+.col-lg-5{
+	width: 41.66%;
+}
+.col-lg-6{
+	width: 50%;
+}
+.col-lg-7{
+	width: 58.33%;
+}
+.col-lg-8{
+	width: 66.66%;
+}
+.col-lg-9{
+	width: 74.99%;
+}
+.col-lg-10{
+	width: 83.33%;
+}
+.col-lg-11{
+	width: 91.66%;
+}
+.col-lg-12{
+	width: 100%;
+}
+}
+@media (min-width:768px) and (max-width: 991px)
+{
+	.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12
+	{
+		float: left;
+		
+	}
+
+.col-md-1{
+	width: 8.33%;
+}
+.col-md-2{
+	width: 16.66%;
+}
+.col-md-3{
+	width: 25%;
+}
+.col-md-4{
+	width: 33%;
+}
+.col-md-5{
+	width: 41.66%;
+}
+.col-md-6{
+	width: 50%;
+}
+.col-md-7{
+	width: 58.33%;
+}
+.col-md-8{
+	width: 66.66%;
+}
+.col-md-9{
+	width: 74.99%;
+}
+.col-md-10{
+	width: 83.33%;
+}
+.col-md-11{
+	width: 91.66%;
+}
+.col-md-12{
+	width: 100%;
+
+}
+}
+/*@media (max-width: 768px)
+{
+	.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12
+	{
+		float: left;
+		/*border: 1px solid green;
+	}
+
+.col-sm-1{
+	width: 8.33%;
+}
+.col-sm-2{
+	width: 16.66%;
+}
+.col-sm-3{
+	width: 25%;
+}
+.col-sm-4{
+	width: 33%;
+}
+.col-sm-5{
+	width: 41.66%;
+}
+.col-sm-6{
+	width: 50%;
+}
+.col-sm-7{
+	width: 58.33%;
+}
+.col-sm-8{
+	width: 66.66%;
+}
+.col-sm-9{
+	width: 74.99%;
+}
+.col-sm-10{
+	width: 83.33%;
+}
+.col-sm-11{
+	width: 91.66%;
+}
+.col-sm-12{
+	width: 100%;
+
+}
+}*/
+h1{
+	margin-bottom: 50px;/*downwards in the medium devices we have filled the last entry by 12 instead 6.........because the paragrapg sushi must be in the full horizontal in the medium view so thats why we written there */
+}
+
+
+</style>
+</head>
+<body>
+<h1 style="text-align: center;">OUR MENU</h1>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-4 col-md-6"><section><div id="chicken">Chicken </div><p>lorem ipsum dolor sit amet. consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra , eu suscipit elit curcus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit  </div></section> 
+		<div class="col-lg-4 col-md-6"><section><div id="fish">Fish</div><p></p>lorem ipsum dolor sit amet. consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra , eu suscipit elit curcus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit 
+			
+  .</p></div></section>
+		<div class="col-lg-4 col-md-12"><section><div id="sushi">Sushi</div><p>lorem ipsum dolor sit amet. consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra , eu suscipit elit curcus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit .</p></div></section>
+	</div>
+</div>
+
+</body>
+</html>
